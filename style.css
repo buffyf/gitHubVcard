@@ -1,0 +1,90 @@
+            body {
+                font-family: 'Rokkitt', serif;
+                margin: 0;
+                background-color: #f3f3f3;
+            }
+            
+            .content {
+                width: 250px;
+                margin-left: 80px;
+            }
+            
+            .story {
+                width: 500px;
+            }
+            
+            h1 {
+                text-align: center;
+                color: white;
+                font-weight: thin;
+            }
+            
+            h2 {
+                font-size: 2rem;
+                font-weight: 900;
+            }
+            
+            p {
+                font-family: Arial, Helvetica, sans-serif;
+                /* line-height: 0.5rem; */
+                color: darkgray;
+            }
+            
+            a:link {
+                color: #272b30;
+            }
+            
+            a:visited {
+                color: #272b30;
+            }
+            
+            a:hover {
+                color: #272b30;
+            }
+            
+            a:active {
+                color: #272b30;
+            }
+            
+            .container {
+                display: flex;
+                justify-content: space-around;
+            }
+            
+            .content {}
+            
+            .mainTitle {
+                position: relative;
+                padding: 8px 8px 32px 8px;
+                background: black;
+            }
+            
+            .mainTitle:after {
+                background: linear-gradient(-45deg, #f3f3f3 16px, transparent 0), linear-gradient(45deg, #f3f3f3 16px, transparent 0);
+                background-position: left-bottom;
+                background-repeat: repeat-x;
+                background-size: 32px 32px;
+                content: " ";
+                display: block;
+                position: absolute;
+                bottom: 0px;
+                left: 0px;
+                width: 100%;
+                height: 32px;
+            }
+            
+            img {
+                height: 110px;
+                width: 110px;
+                border-radius: 50%;
+            }
+            
+            .greenFont {
+                color: #83aaab;
+            }
+            
+            .verticalLine {
+                border-left: 2px solid lightgray;
+                padding: 30px;
+                line-height: 1.7rem;
+            }
