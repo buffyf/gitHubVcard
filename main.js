@@ -11,20 +11,22 @@ function reqListener() {
    
         itemContainer.innerHTML = `
         <div class="mainTitle">
-        <h1>${data.name}</h1>
+        <p class = "title">${data.name}</p>
     </div>
     <div class="container">
         <div class="content">
             <h2>The Basics</h2>
-            <p><span class = "greenFont">Name:  </span>${data.name}</p>
-            <p><span class = "greenFont">Github URL:  </span><a href=${data.html_url}>${data.login}</a></p>
-            <p><span class = "greenFont">Email:  </span>${data.email}</p>
-            <p><span class = "greenFont">Company:  </span>${data.company}</p>
-            <p><span class = "greenFont">Website:  </span><a href=${data.blog}>${data.blog}</a></p>
+            <div class = "pContent">
+                <p><span class = "greenFont">Name:  </span>${data.name}</p>
+                <p><span class = "greenFont">Github URL:  </span><a href=${data.html_url}>${data.login}</a></p>
+                <p><span class = "greenFont">Email:  </span>${data.email}</p>
+                <p><span class = "greenFont">Company:  </span>${data.company}</p>
+                <p><span class = "greenFont">Website:  </span><a href=${data.blog}>${data.blog}</a></p>
+            </div>
         </div>
         
         <div class="story">
-            <h2>The Story</h2>
+            <h2 class = "heading2">The Story</h2>
             <p class = "verticalLine">${data.bio}</p>
         </div>
         <div>
